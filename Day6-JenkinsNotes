@@ -56,7 +56,8 @@ src/test/java   ==> test cases will be present
 pom.xml   ==> heart of maven project
 
  1. dependencies   ==> developer write the names of tools or framework that is needed in writw source code. Tools downloded by developer to write code
- 2. plugin information
+                   ==maven downloaded this dependencies automatically for developer
+ 2. plugin information == developer will write plugins name and version needed to complie the build process
  3. Repositories ( local, central & remote)
 URls or location from ehre we have to download the plugin or dependency
 
